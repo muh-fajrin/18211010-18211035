@@ -1,4 +1,8 @@
-18211010-18211035
+Tugas Web Service
+
+
+Oleh : Muhammad Fajrin 18211010
+R. Ryan Adi Wicaksana 18211035
 =================
 
-Tugas II3160 Pemrograman Integratif 
+II3160 Pemrograman Integratif 
