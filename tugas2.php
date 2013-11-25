@@ -8,15 +8,18 @@ $xml = new SimpleXMLElement("progin.xml".$_GET["callsign"], 0, TRUE);
 ?>
 
 <table border="1">
-	<caption>DAFTAR MAHASISWA ITB</caption>
-	<tr><th>NIM</th><th>NAMA</th><th>ASAL</th></tr>
+<caption>DAFTAR MAHASISWA ITB</caption>
+	<tr>
+		<?php foreach ($xml->children()->children() as $a) :?>
+			<th><?php echo $a->getName(); ?></th>
+		<?php endforeach;?> 
+	</tr>
 <?php 
 $n = 0;
-foreach ($xml->children() as $p) { ?>
+foreach ($xml->children() as $p) : ?>
 	<tr>
-	<?php foreach ($xml->children()->mahasiswa[$n] as $r) :?>
-	      <td><?php echo $r . "<br>"; ?></td>
-	<?php endforeach;?> 
+		<?php foreach ($p->children() as $r[$n]) :?>
+	    	<td><?php echo $r[$n] . "<br>"; ?></td>
+		<?php endforeach;?> 
 	</tr>
-<?php $n++;
-}?>
+<?php $n++; endforeach;?>
