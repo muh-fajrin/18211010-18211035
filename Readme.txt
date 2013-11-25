@@ -1,1 +1,3 @@
-Untuk menjalankan web service, silahkan buka file tugas2.php
+Untuk melihat tugas kami, silahkan buka file :
+	a. tugas2.php untuk melihat tugas 2
+	b. tugas3.php untuk melihat tugas 3
