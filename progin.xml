@@ -2,17 +2,17 @@
 <itb>
 	<mahasiswa>
 		<NIM>18211010</NIM>
-		<nama>Muhammad Fajrin</nama>
-		<asal>Makassar</asal>
+		<Nama>Muhammad Fajrin</Nama>
+		<Asal>Makassar</Asal>
 	</mahasiswa>
 	<mahasiswa>
 		<NIM>18211035</NIM>
-		<nama>R. Ryan Adi Wicaksana</nama>
-		<asal>Semarang</asal>
+		<Nama>R. Ryan Adi Wicaksana</Nama>
+		<Asal>Semarang</Asal>
 	</mahasiswa>
 	<mahasiswa>
 		<NIM>18211001</NIM>
-		<nama>Aditya Pradita</nama>
-		<asal>Bandung</asal>
+		<Nama>Aditya Pradita</Nama>
+		<Asal>Bandung</Asal>
 	</mahasiswa>
 </itb>
