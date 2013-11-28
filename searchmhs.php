@@ -6,19 +6,14 @@ $xml=simplexml_load_file("progin.xml");
 header("content-type: text/xml");
 switch($input) {
 		case null:
-			// Berikan file xml kosong
 			echo "kosong";
 			break;
 		case 'all':
-			// Berikan semua data menu
-			//$xml = getDomDocument();
 			$xmlPath = "progin.xml";
     		$doc = new DOMDocument(); 
     		$doc->load($xmlPath); 
     		$xml = $doc; 
-			// header('Content-type: text/xml');
 			print $xml->saveXML();
-			// return $xml;
 			break;
 		default:
 			$xmlPath = "progin.xml";
@@ -26,7 +21,6 @@ switch($input) {
     		$domDocument->load($xmlPath); 
 
 			$doc = new DOMDocument('1.0','UTF-8');
-		    // we want a nice output
 		    $doc->formatOutput = true;
 
 		    $tag = $input;
