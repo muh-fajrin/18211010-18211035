@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tabel-Mahasiswa>
 	<mahasiswa>
+		<NIM>18211001</NIM>
+		<Nama>Aditya Pradita</Nama>
+		<Asal>Bandung</Asal>
+	</mahasiswa>
+	<mahasiswa>
+		<NIM>18211002</NIM>
+		<Nama>Azka Ihsan Nurrahman</Nama>
+		<Asal>Cimahi</Asal>
+	</mahasiswa>
+	<mahasiswa>
+		<NIM>18211003</NIM>
+		<Nama>Dinda Tisi Calista</Nama>
+		<Asal>Jakarta</Asal>
+	</mahasiswa>
+	<mahasiswa>
+		<NIM>18211007</NIM>
+		<Nama>Gunawan</Nama>
+		<Asal>Bandung</Asal>
+	</mahasiswa>
+	<mahasiswa>
 		<NIM>18211010</NIM>
 		<Nama>Muhammad Fajrin</Nama>
 		<Asal>Makassar</Asal>
+	</mahasiswa>
+	<mahasiswa>
+		<NIM>18211011</NIM>
+		<Nama>Muhammad Harya Putera</Nama>
+		<Asal>Jakarta</Asal>
+	</mahasiswa>
+	<mahasiswa>
+		<NIM>18211024</NIM>
+		<Nama>Kurniawan Adhi Ramdhani</Nama>
+		<Asal>Cimahi</Asal>
+	</mahasiswa>
+	<mahasiswa>
+		<NIM>18211025</NIM>
+		<Nama>Indra Kusuma Putra</Nama>
+		<Asal>Bali</Asal>
+	</mahasiswa>
+	<mahasiswa>
+		<NIM>18211030</NIM>
+		<Nama>Andy Primawan</Nama>
+		<Asal>Cimahi</Asal>
 	</mahasiswa>
 	<mahasiswa>
 		<NIM>18211035</NIM>
@@ -11,8 +51,23 @@
 		<Asal>Semarang</Asal>
 	</mahasiswa>
 	<mahasiswa>
-		<NIM>18211001</NIM>
-		<Nama>Aditya Pradita</Nama>
+		<NIM>18211040</NIM>
+		<Nama>Danang Arbansa Nur</Nama>
+		<Asal>Tuban</Asal>
+	</mahasiswa>
+	<mahasiswa>
+		<NIM>18211050</NIM>
+		<Nama>Khairani Ummah</Nama>
+		<Asal>Bekasi</Asal>
+	</mahasiswa>
+	<mahasiswa>
+		<NIM>18211058</NIM>
+		<Nama>Antragama Ewa Abbas</Nama>
+		<Asal>Banjar Baru</Asal>
+	</mahasiswa>
+	<mahasiswa>
+		<NIM>18211060</NIM>
+		<Nama>Habib Mufid Ridho</Nama>
 		<Asal>Bandung</Asal>
 	</mahasiswa>
 </Tabel-Mahasiswa>
