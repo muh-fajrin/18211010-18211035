@@ -32,8 +32,4 @@ include "header.php";
 			<p>gunakan <strong>%20</strong> untuk mengantikan <strong>spasi</strong></p>
 		</div>
 	</div>
-
-	<div class="col-md-12 kaki">
-		<span>Copyright &copy M Fatoni (18211042) & Faris Taufiq (18211054)</span>
-	</div>
 </div>
