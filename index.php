@@ -31,5 +31,12 @@ include "header.php";
 			<p><strong><code>http://localhost/progin-itb/18211010-18211035/searchmhs.php?tag=Nama&value=Aditya%20Pradita</code></strong></p>
 			<p>gunakan <strong>%20</strong> untuk mengantikan <strong>spasi</strong></p>
 		</div>
+		<div class="col-md-3 box-data">
+			<p class="lead">Akses web service teman</p>
+			<p>Tekan tombol di bawah ini untuk melihat hasil penggunaan web service teman</p>
+			<a href="tugas3.php?link=http://localhost/progin-itb/pemrograman-integratif/artis.php"><button>Fatoni</button></a>
+			<a href="tugas3.php?link=http://localhost/progin-itb/pemrograman_integratif/informasi_xml.php?nim=all"><button>Antra</button></a>
+			<a href="tugas3.php?link=http://localhost/progin-itb/II3160-Tugas-18211011-18211053/index.php/search/korans"><button>Divo</button></a>
+		</div>
 	</div>
 </div>

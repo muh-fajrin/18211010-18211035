@@ -6,6 +6,7 @@
 </head>
 <b><p style="color:white" class="title">Tugas 3 Pemrograman Integratif</p></b>
 <?php
+$input = $_GET['link'];
 
 //Dibuat Oleh
 //Muhammad Fajrin (18211010)
@@ -32,12 +33,9 @@ function parseXML($xml) { ?>
 	<?php
 }
 
-$arrxml = glob("../*/*.xml");
-    foreach($arrxml as $filexml)
-    {
-        $xmlfile=simplexml_load_file($filexml);
-        parseXML($xmlfile);
-    }
-?>
+//$path = 'http://localhost/progin-itb/pemrograman-integratif/artis.php';
+$path = $input;
+$xmlnow = simplexml_load_file($path);
+parseXML ($xmlnow);
 
 ?>
