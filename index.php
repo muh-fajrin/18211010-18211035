@@ -12,7 +12,7 @@ include "header.php";
 			<p>Untuk mendapatkan semua data mahasiswa, bisa gunakan URI berikut :</p>
 			<p><strong><code>http://[domain utama]/18211010-18211035/searchmhs.php?tag=all</code></strong></p>
 			<p>Contoh pengaksesan di localhost :</p>
-			<p><strong><code>http://localhost/18211010-18211035/searchmhs.php?tag=all</code></strong></p>
+			<p><strong><code>http://localhost/progin-itb/18211010-18211035/searchmhs.php?tag=all</code></strong></p>
 		</div>
 		<div class="col-md-3 box-data">
 			<p class="lead">Akses data mahasiswa berdasarkan NIM</p>
@@ -20,7 +20,7 @@ include "header.php";
 			<p><strong><code>http://[domain utama]/18211010-18211035/searchmhs.php?tag=NIM&value=XXXXX</code></strong></p>
 			<p>dengan <strong>XXXXX</strong> adalah NIM yang ingin dicari</p>
 			<p>Contoh pengaksesan di localhost :</p>
-			<p><strong><code>http://localhost/18211010-18211035/searchmhs.php?tag=NIM&value=18211001</code></strong></p>
+			<p><strong><code>http://localhost/progin-itb/18211010-18211035/searchmhs.php?tag=NIM&value=18211001</code></strong></p>
 		</div>
 		<div class="col-md-3 box-data">
 			<p class="lead">Akses data mahasiswa berdasarkan nama</p>
@@ -28,7 +28,7 @@ include "header.php";
 			<p><strong><code>http://[domain utama]/18211010-18211035/searchmhs.php?tag=Nama&value=XXXXX</code></strong></p>
 			<p>dengan <strong>XXXXX</strong> adalah nama yang ingin dicari</p>
 			<p>Contoh pengaksesan di localhost :</p>
-			<p><strong><code>http://localhost/18211010-18211035/searchmhs.php?tag=Nama&value=Aditya%20Pradita</code></strong></p>
+			<p><strong><code>http://localhost/progin-itb/18211010-18211035/searchmhs.php?tag=Nama&value=Aditya%20Pradita</code></strong></p>
 			<p>gunakan <strong>%20</strong> untuk mengantikan <strong>spasi</strong></p>
 		</div>
 	</div>
